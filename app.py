@@ -2,11 +2,13 @@ import MySQLdb
 from flask import Flask, jsonify, request
 from flask_mysqldb import MySQL
 from wordcloud import WordCloud
+from flask_cors import CORS
 import io
 import os
 import base64
 
 app = Flask(__name__)
+CORS(app)
 
 # 資料庫連接
 app.config['MYSQL_HOST'] = '127.0.0.1'
