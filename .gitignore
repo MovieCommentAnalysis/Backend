@@ -1,0 +1,18 @@
+# 忽略所有 .pyc 文件
+*.pyc
+
+# 忽略所有 .log 文件
+*.log
+
+# 忽略 /venv/ 目錄
+/venv/
+
+# 忽略 /node_modules/ 目錄
+/node_modules/
+
+# 忽略特定的文件或目錄
+.env
+
+docker-compose.yaml
+
+Dockerfile
